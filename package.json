@@ -1,0 +1,20 @@
+{
+  "name": "mac-artifact-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Attard",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
